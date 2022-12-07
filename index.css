@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 15px;
+    padding: 10px 20px;
+    background-color: black;
+}
+.logArt{
+    color: white;
+   font-size: 30px;
+}
+.nvaitem ul li{
+    background-color: white;
+    color: black;
+    padding: 8px 11px;
+    margin: 0 10px;
+    display: inline;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.nvaitem ul li:hover{
+    background-color:blue;
+    color: black;
+    padding: 8px 11px;
+    margin: 0 10px;
+    display: inline;
+    border: 1px solid;
+    border-radius: 5px;
+}
+/* hurrUpTxt */
+.hurrUpTxt{
+    display: flex;
+    font-size: xx-large;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+/* .hurrUpTxt p{
+    margin: auto;
+} */
+/* .hurrUpTxt:hover{
+    transform: scale(2);
+    hurrUpTxt
+} */
+.hurrUpTxt:hover{
+    transform: scale(2);
+    transition: all 4s;
+}
+.hurrUpTxt{
+    transition: all 4s;
+}
+/* linerBox */
+.linerBox{
+    border: 10px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient( to top , #CBA9A2,#5565E2 , #CBA9A2);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+div.jobs{
+    color: white;
+    margin: 25px 55px;
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    text-align: center;
+    font-size: x-small;
+}
+.highsetTxt,.payTxt,.jobsTxt{
+    text-align: center;
+}
+.higPay p{
+    text-align: center;
+}
+.highsetCareer p{
+    text-align: center;
+}
+div.higPay{
+    margin: 25px 55px;
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    
+    text-align: center;
+    font-size: x-small;
+}
+.jobsTop{
+    width: 350px;
+    height: 300px;
+}
+.higPayTop{
+    width: 350px;
+    height: 300px;
+}
+.highsetCareerTop{
+    width: 350px;
+    height: 300px;
+}
+div.highsetCareer{
+    margin: 25px 55px;
+    width: 200px;
+    height: 200px;
+    background-color: #93F3BE ;
+    text-align: center;
+    font-size: x-small;
+}
+.highsetCareer+p{
+    font-size: 20px;
+    color: black;
+}
+.copyRgih{
+    background-color: gray;
+    padding: 10px 20px;
+}
+.copyRiTxt{
+    font-size: 20px;
+    text-align: center;
+
+}
+/* media Qyuery Part */
+@media (max-width:600px){
+    .nvaitem{
+        display: none;
+    }
+    .linerBox{
+        width: 100%;
+        display: inline;
+    }
+    .jobsTop{
+        width: 100%;
+    }
+    .jobs{
+        width: 100%;
+    }
+    .higPayTop{
+        width: 100%;
+    }
+    .higPay{
+        width: 100%;
+
+    }
+    .highsetCareerTop{
+        width: 100%;
+    }
+    .highsetCareer{
+        width: 100%;
+    }
+}
